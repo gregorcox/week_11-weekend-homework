@@ -19,6 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
     form.reset();
 
 
+    const deleteButton = document.querySelector("#button");
+    deleteButton.addEventListener("click", () => {
+      console.dir(deleteButton);
+      countryList.innerHTML = '';
+    });
+
+
   })
 
 
